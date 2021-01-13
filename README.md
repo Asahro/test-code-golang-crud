@@ -10,6 +10,7 @@ This project required :
 
 ## Installation
 
+first clone project in a folder named crud. 
 After clone the project, you will get on folder that contant db, postman colection and golang code.
 
 ### Installation db
@@ -22,16 +23,18 @@ you just need to open postman and export collection and select "Testing Code Dog
 
 ### Installation Golang 
 
-firt runing gomod  
+first runing golang  
 
 ```bash
-pip install foobar
+go run main.go
+```
+
+if there any dependency needed, install them using
+
+```bash
+go get git-url
 ```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)

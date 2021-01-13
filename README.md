@@ -1,23 +1,31 @@
-# Foobar
+# Test Code Golang CRUD
 
-Foobar is a Python library for dealing with word pluralization.
+This project is for Golang Developer Test Recruitment in Alfa Corp. This project build using Beego, MySql, and third party API (https://api-docs.alfadigital.id/)
+
+## What You Need
+
+This project required :
+- golang v 1.15
+- mySql v 10.1.38 (mariaDb)
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+After clone the project, you will get on folder that contant db, postman colection and golang code.
+
+### Installation db
+
+create db project wirth name "crud_golang_test" and inport file crud_golang_test.sql
+
+### Installation postman 
+
+you just need to open postman and export collection and select "Testing Code Dog.postman_collection" file in the cloning project folder 
+
+### Installation Golang 
+
+firt runing gomod  
 
 ```bash
 pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing

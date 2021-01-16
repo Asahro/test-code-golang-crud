@@ -35,6 +35,24 @@ if there any dependency needed, install them using
 go get git-url
 ```
 
+## Setup
+
+You can change db setting using from config/app.config
+```bash
+
+appname         = crud
+httpport        = 8080
+runmode         = prod
+copyrequestbody = true
+
+db.host         = localhost
+db.port         = 3306
+db.user         = root
+db.password     = 
+db.name         = "crud_golang_test"
+db.charset      = utf8mb4
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.

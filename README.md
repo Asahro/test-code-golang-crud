@@ -1,6 +1,6 @@
 # Test Code Golang CRUD
 
-This project is for Golang Developer Test Recruitment in Alfa Corp. This project build using Beego, MySql, and third party API (https://api-docs.alfadigital.id/)
+This project is to inform you how my code style. This project build using Beego, MySql, and third party API (https://dog.ceo)
 
 ## What You Need
 
